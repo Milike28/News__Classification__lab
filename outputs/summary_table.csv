@@ -1,0 +1,4 @@
+Modelo,F1 (Macro),F1 (Weighted)
+RoBERTa,0.8712,0.8711
+DeBERTa,0.7429,0.7431
+ModernBERT,0.8550,0.8547

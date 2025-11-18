@@ -1,0 +1,52 @@
+# Requirements for Task 2 - Transformer News Classification
+# Compatible with Google Colab and Python 3.10+
+
+# =====================================
+# Core Deep Learning & Transformers
+# =====================================
+torch==2.5.1
+transformers==4.46.3
+datasets==3.1.0
+accelerate==1.2.1
+
+# =====================================
+# Data Science & ML
+# =====================================
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.6.0
+
+# =====================================
+# Visualization
+# =====================================
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# =====================================
+# Bonus Task: LLM API
+# =====================================
+openai==1.55.3
+
+# =====================================
+# Task 1 Dependencies (if continuing)
+# =====================================
+feedparser==6.0.11
+tiktoken==0.8.0
+sentence-transformers==3.3.1
+chromadb==0.5.23
+langchain==0.3.25
+langchain-community==0.3.25
+
+# =====================================
+# Optional: Progress bars & utilities
+# =====================================
+tqdm==4.66.5
+
+# =====================================
+# Notes:
+# =====================================
+# - All versions tested on Google Colab (November 2025)
+# - PyTorch version compatible with CUDA 12.6
+# - transformers >= 4.46 required for ModernBERT
+# - openai only needed for bonus task
+# - Task 1 dependencies optional (only if doing bonus)

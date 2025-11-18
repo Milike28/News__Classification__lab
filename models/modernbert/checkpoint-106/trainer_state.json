@@ -1,0 +1,70 @@
+{
+  "best_global_step": 106,
+  "best_metric": 0.9106380020991026,
+  "best_model_checkpoint": "/content/drive/MyDrive/News_Classification-lab/models/modernbert/checkpoint-106",
+  "epoch": 2.0,
+  "eval_steps": 500,
+  "global_step": 106,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_f1": 0.8702427760441704,
+      "eval_f1_weighted": 0.8704125038734727,
+      "eval_loss": 0.42082300782203674,
+      "eval_runtime": 16.0176,
+      "eval_samples_per_second": 11.987,
+      "eval_steps_per_second": 0.749,
+      "step": 53
+    },
+    {
+      "epoch": 1.8867924528301887,
+      "grad_norm": 7.020058631896973,
+      "learning_rate": 1.3207547169811322e-06,
+      "loss": 0.4938,
+      "step": 100
+    },
+    {
+      "epoch": 2.0,
+      "eval_f1": 0.9106380020991026,
+      "eval_f1_weighted": 0.9106767868437698,
+      "eval_loss": 0.40280473232269287,
+      "eval_runtime": 0.6065,
+      "eval_samples_per_second": 316.553,
+      "eval_steps_per_second": 19.785,
+      "step": 106
+    }
+  ],
+  "logging_steps": 100,
+  "max_steps": 106,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 2,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "EarlyStoppingCallback": {
+      "args": {
+        "early_stopping_patience": 2,
+        "early_stopping_threshold": 0.0
+      },
+      "attributes": {
+        "early_stopping_patience_counter": 0
+      }
+    },
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 143120279715840.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}

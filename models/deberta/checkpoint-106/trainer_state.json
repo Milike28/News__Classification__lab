@@ -1,0 +1,70 @@
+{
+  "best_global_step": 106,
+  "best_metric": 0.8025819210029735,
+  "best_model_checkpoint": "/content/drive/MyDrive/News_Classification-lab/models/deberta/checkpoint-106",
+  "epoch": 2.0,
+  "eval_steps": 500,
+  "global_step": 106,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_f1": 0.5649915029933056,
+      "eval_f1_weighted": 0.5668121438588902,
+      "eval_loss": 1.1085283756256104,
+      "eval_runtime": 13.078,
+      "eval_samples_per_second": 14.681,
+      "eval_steps_per_second": 0.918,
+      "step": 53
+    },
+    {
+      "epoch": 1.8867924528301887,
+      "grad_norm": 3.3612325191497803,
+      "learning_rate": 1.3207547169811322e-06,
+      "loss": 1.1258,
+      "step": 100
+    },
+    {
+      "epoch": 2.0,
+      "eval_f1": 0.8025819210029735,
+      "eval_f1_weighted": 0.8035359052902911,
+      "eval_loss": 0.6137791275978088,
+      "eval_runtime": 0.8328,
+      "eval_samples_per_second": 230.556,
+      "eval_steps_per_second": 14.41,
+      "step": 106
+    }
+  ],
+  "logging_steps": 100,
+  "max_steps": 106,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 2,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "EarlyStoppingCallback": {
+      "args": {
+        "early_stopping_patience": 2,
+        "early_stopping_threshold": 0.0
+      },
+      "attributes": {
+        "early_stopping_patience_counter": 0
+      }
+    },
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 55640273633280.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}

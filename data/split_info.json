@@ -1,0 +1,12 @@
+{
+  "train_size": 840,
+  "val_size": 180,
+  "test_size": 180,
+  "categories": {
+    "0": "World",
+    "1": "Sports",
+    "2": "Business",
+    "3": "Science/Tech"
+  },
+  "sample_percentage": 10
+}
